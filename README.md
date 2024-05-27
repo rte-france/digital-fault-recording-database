@@ -16,7 +16,7 @@ This database comprises 12066 measured voltage and current waveform signals (pha
 
 
 ## Signal Characteristics
-All signals are stored in a list DATA_S of shape (12066, 6, 21000)
+All signals are stored in a list DATA_S of shape (12053, 6, 21000)
 
 - 12066  number of observed faults
 
