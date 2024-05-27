@@ -12,7 +12,7 @@
 
 # Voltages and Current Database, DATA_S
  
-This database comprises 12066 measured voltage and current waveform signals (phase-ground) on high voltage lines of the French electricity transmission grid during various faults. 
+This database comprises 12053 measured voltage and current waveform signals (phase-ground) on high voltage lines of the French electricity transmission grid during various faults. 
 
 
 ## Signal Characteristics
