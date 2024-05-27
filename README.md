@@ -26,7 +26,7 @@ All signals are stored in a list DATA_S of shape (12053, 6, 21000)
 
 - Nominal frequency of the network 50 Hz
 
-- nominal voltage 90 kV
+- Nominal voltage 90 kV
 
 
 ## Sample Characteristics
