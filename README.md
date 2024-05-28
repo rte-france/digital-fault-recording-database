@@ -34,11 +34,11 @@ The sampling frequency is 6400 Hz
 
 The number of bits to encode a sample is 16 bits
 
-Quantization levels range from -32767 to 32767, or 16 bits
+Quantization levels range from -32767 to 32767
 
-The quantization step size for voltage signals is 18.310 V per level
+The quantization step size for voltage signals is 18.310 V
 
-The quantization step size for current signals is 4.314 A per level
+The quantization step size for current signals is 4.314 A
 
 ## Examples of Observed Voltage and Current Signals
 
@@ -53,22 +53,18 @@ The quantization step size for current signals is 4.314 A per level
 ![image](https://github.com/rte-france/digital-fault-recording-database/assets/144250214/7a96b73f-23e0-4e97-a2e5-e6515e49d926)
 
 
-# Transient Signals Databases, DATA_u and DATA_i
+# Transient Signals, DATA_u and DATA_i
 
-The lists DATA_u and DATA_i are two databases of voltage and current signals respectively obtained from DATA_S.
+The lists DATA_u and DATA_i are vectors of voltage and current signals derived from DATA_S.
 
 DATA_u and DATA_i contain 30000 signals of size 128 samples, corresponding to one period of the nominal frequency of the network at 50 Hz.
 
-To obtain DATA_u and DATA_i, a scan of all signals in DATA_S is performed. For each voltage signal in DATA_S, a temporal segmentation is performed, dividing each voltage signal into signals of size 128 samples.
-
-A transient selection criterion is applied to each 128-sample signal.
-
-The window is kept if:
+To obtain DATA_u and DATA_i, each voltage signal is temporelly segmented into 128 samples. A transient selection criterion is applied to each segment. The signal is kept if:
 
 - the standard deviation of the signal is greater than 100 times the quantization step (to remove windows where the signal amplitude changes little)
-- if the mean absolute value of the signal is greater than 2000 V (to remove all periodic signals such as harmonics)
+- if the mean absolute value of the signal is greater than 2000 V
 
-If the 128 voltage samples are retained, the 128 current samples are also retained.
+If the voltage signal are retained, the current signal are also retained.
 DATA_u[k] and DATA_i[k] are therefore derived from the observation of the same conductor.
 
 ## Examples of Recovered Transient Voltage Signals
@@ -111,22 +107,24 @@ DATA_u[k] and DATA_i[k] are therefore derived from the observation of the same c
   </tr>
 </table>
 
-## Download DATA_u, DATA_i, and DATA_S Databases
-Download the txt files DATA_S, DATA_u and DATA_i. 
+## Download DATA_u, DATA_i, and DATA_S
+Download the npz files DATA_S, DATA_u and DATA_i. 
 
 Space required to download the databases :
 
-DATA_S.txt : 2 GB 
+DATA_S.npz : 2 GB 
 
-DATA_u.txt : 10 MB
+DATA_u.npz : 10 MB
 
-DATA_i.txt : 5 MB
+DATA_i.npz : 5 MB
 
 then with python run
 
-
+    import numpy as np
+    import matplotlib.pyplot as np
+    
     DATA_S_load = np.load('DATA_S.npz')['DATA_S'] # Load DATA_S from the npz file 
-    DATA_u_load = np.load('DATA_u.npz')['DATA_u'] #  Load DATA_u from the npz file
+    DATA_u_load = np.load('DATA_u.npz')['DATA_u'] # Load DATA_u from the npz file
     DATA_i_load = np.load('DATA_i.npz')['DATA_i'] # Load DATA_i from the npz file
     
     
