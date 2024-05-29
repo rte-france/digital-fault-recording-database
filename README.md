@@ -5,7 +5,7 @@
 > @online{DatabaseRTE, 
 > author = {Presvôts, Corentin and Prevost, Thibault},  
 > title = {Database of Voltage and Current Samples Values from the French Electricity Transmission Grid, Réseau de Transport d'Electricité (RTE), France},
-> url = {[[https://github.com/CorentinPresvots/DATABASE_ELECTRICAL_SIGNALS](https://github.com/rte-france/digital-fault-recording-database/)](https://github.com/rte-france/digital-fault-recording-database/)},
+> url = {[[https://github.com/rte-france/digital-fault-recording-database/](https://github.com/rte-france/digital-fault-recording-database/)](https://github.com/rte-france/digital-fault-recording-database/)},
 > year = {2024},
 > }
 > 
