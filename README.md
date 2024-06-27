@@ -28,6 +28,7 @@ All signals are stored in a list DATA_S of shape (12053, 6, 21000)
 
 - Nominal voltage 90 kV
 
+These signals are only a subset of all faults recorded, selected on waveform shape.
 
 ## Sample Characteristics
 The sampling frequency is 6400 Hz
