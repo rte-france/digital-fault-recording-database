@@ -122,7 +122,7 @@ DATA_i.npz : 5 MB
 then with python run
 
     import numpy as np
-    import matplotlib.pyplot as np
+    import matplotlib.pyplot as plt
     
     DATA_S_load = np.load('DATA_S.npz')['DATA_S'] # Load DATA_S from the npz file 
     DATA_u_load = np.load('DATA_u.npz')['DATA_u'] # Load DATA_u from the npz file
