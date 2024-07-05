@@ -9,6 +9,8 @@
 > year = {2024},
 > }
 > 
+# Alternative download links
+As we are presently encountering quota issues with the biggest file download, you can go to : https://dfrdb.rte-france.com/ to download the files.
 
 # Voltages and Current Database, DATA_S
  
