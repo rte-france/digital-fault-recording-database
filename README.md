@@ -45,15 +45,30 @@ The quantization step size for current signals is 4.314 A
 
 ## Examples of Observed Voltage and Current Signals
 
-### Signal 1 
-![image](https://github.com/rte-france/digital-fault-recording-database/assets/144250214/0b4a1acc-b907-407a-b90b-24bba502c133)
-![image](https://github.com/rte-france/digital-fault-recording-database/assets/144250214/0c0d96fb-f442-4b77-a200-2450552a5d7b)
-### Signal 2 
-![image](https://github.com/rte-france/digital-fault-recording-database/assets/144250214/c92ba36d-a99d-449b-a577-0379609709de)
-![image](https://github.com/rte-france/digital-fault-recording-database/assets/144250214/3353e290-fd35-4e4a-90c3-4ea89e6324f3)
-### Signal 3 
-![image](https://github.com/rte-france/digital-fault-recording-database/assets/144250214/79cf936f-6e52-4003-a4e5-b4a0bcd472a3)
-![image](https://github.com/rte-france/digital-fault-recording-database/assets/144250214/7a96b73f-23e0-4e97-a2e5-e6515e49d926)
+### Signal 1 (id 85/12053)
+![image](https://github.com/user-attachments/assets/d425df55-5240-484f-81b5-a3fe3bf9810d)
+### Signal 2 (id 91/12053)
+![image](https://github.com/user-attachments/assets/636e4031-dc95-4d2e-85e3-be2b92f55678)
+### Signal 3 (id 98/12053)
+![image](https://github.com/user-attachments/assets/91282a13-4039-430c-8acb-6c6f652a1730)
+### Signal 4 (id 176/12053)
+![image](https://github.com/user-attachments/assets/8e267250-1758-4f06-bad3-d81616794e54)
+### Signal 5 (id 189/12053)
+![image](https://github.com/user-attachments/assets/aded1109-7926-4efd-8665-01e225bbaa81)
+### Signal 6 (id 195/12053)
+![image](https://github.com/user-attachments/assets/2642ea8b-dab6-4bda-9f5f-27d41932db62)
+### Signal 7 (id 282/12053)
+![image](https://github.com/user-attachments/assets/25f032bd-51f4-44a9-ae33-c377add5c470)
+### Signal 8 (id 287/12053)
+![image](https://github.com/user-attachments/assets/eac48de0-842c-4635-98da-25b7f47ce662)
+### Signal 9 (id 316/12053)
+![image](https://github.com/user-attachments/assets/b60c42e0-c8d5-4934-8e0c-ea8c71972fb2)
+### Signal 10 (id 337/12053)
+![image](https://github.com/user-attachments/assets/74fd50d1-332e-415f-ab76-63b4da7f4b94)
+### Signal 11 (id 371/12053)
+![image](https://github.com/user-attachments/assets/ba34bf4e-d811-4a2b-be64-f06633032131)
+### Signal 12 (id 380/12053)
+![image](https://github.com/user-attachments/assets/b76a2fc2-77aa-4d20-b583-0c7a24e2f7fb)
 
 
 # Transient Signals, DATA_u and DATA_i
